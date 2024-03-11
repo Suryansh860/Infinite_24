@@ -1,0 +1,7 @@
+D:\Suryansh\Assignment 2\Assignment_2\Assignment_2\bin\Debug\Assignment_2.exe.config
+D:\Suryansh\Assignment 2\Assignment_2\Assignment_2\bin\Debug\Assignment_2.exe
+D:\Suryansh\Assignment 2\Assignment_2\Assignment_2\bin\Debug\Assignment_2.pdb
+D:\Suryansh\Assignment 2\Assignment_2\Assignment_2\obj\Debug\Assignment_2.csproj.AssemblyReference.cache
+D:\Suryansh\Assignment 2\Assignment_2\Assignment_2\obj\Debug\Assignment_2.csproj.CoreCompileInputs.cache
+D:\Suryansh\Assignment 2\Assignment_2\Assignment_2\obj\Debug\Assignment_2.exe
+D:\Suryansh\Assignment 2\Assignment_2\Assignment_2\obj\Debug\Assignment_2.pdb

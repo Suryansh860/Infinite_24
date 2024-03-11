@@ -1,0 +1,7 @@
+D:\Infinite\CodeTest_2\Code_Test2\Code_Test2\bin\Debug\Code_Test2.exe.config
+D:\Infinite\CodeTest_2\Code_Test2\Code_Test2\bin\Debug\Code_Test2.exe
+D:\Infinite\CodeTest_2\Code_Test2\Code_Test2\bin\Debug\Code_Test2.pdb
+D:\Infinite\CodeTest_2\Code_Test2\Code_Test2\obj\Debug\Code_Test2.csproj.AssemblyReference.cache
+D:\Infinite\CodeTest_2\Code_Test2\Code_Test2\obj\Debug\Code_Test2.csproj.CoreCompileInputs.cache
+D:\Infinite\CodeTest_2\Code_Test2\Code_Test2\obj\Debug\Code_Test2.exe
+D:\Infinite\CodeTest_2\Code_Test2\Code_Test2\obj\Debug\Code_Test2.pdb
