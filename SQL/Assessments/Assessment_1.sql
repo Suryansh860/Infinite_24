@@ -84,13 +84,13 @@ Select lower(name) from EMP2  where salary=null
 create table studentdetails (registerno int,name varchar(20),age int,
 qualification varchar(40),mobileno varchar(15),mail_id varchar(30),location varchar(50),gender char(1))
 
-insert into studentdetails (registerno, name, age, qualification, mobileno, mail_id, location, gender) values
+insert into studentdetails values
 (2, 'sai', 22, 'b.e', '9952836777', 'sai@gmail.com', 'chennai', 'm'),
 (3, 'kumar', 20, 'bsc', '7890125648', 'kumar@gmail.com', 'madurai', 'm'),
-(4, 'selvi', 22, 'b.tech', null, null, 'madurai', 'f'),
-(5, 'nisha', 25, 'm.e', null, null, 'theni', 'f'),
-(6, 'saisaran', 21, null, null, null, 'pune', 'f'),
-(7, 'tom', 23, 'b.a bca', '8904567342', 'tom@gmail.com', 'selam', 'm')
+(4, 'selvi', 22, 'b.tech', 8904567342, 'selvi@gmail.com', 'selam', 'f'),
+(5, 'nisha', 25, 'm.e', 7834672310,'nisha@gmail.com', 'theni', 'f'),
+(6, 'saisaran', 21,'b.a.',7890345678,'saisaran@gmail.com', 'madhuri', 'f'),
+(7, 'tom', 23, 'bca', '8901234675', 'tom@gmail.com', 'pune', 'm')
 
 Select * from studentdetails
 
