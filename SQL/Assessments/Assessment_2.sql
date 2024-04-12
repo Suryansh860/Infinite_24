@@ -17,7 +17,7 @@ Select * from EMP where datediff(yy,hiredate,getdate()) >5
 --Q.4  Create table Employee with empno, ename, sal, doj columns and perform the following operations 
 --in a single transaction
 
-Begin transaction;
+Begin transaction
  
 -- Creating the table
 Create table employee1(empno int primary key,ename varchar(50),
@@ -31,12 +31,17 @@ Insert into employee1 values
 
 --b. Update the second row sal with 15% increment   
 update employee1 
-set sal = sal * 0.15 where empno = 2;
+set sal = sal * 0.15 where empno = 2
 save tran t1
+
 --c. Delete first row
-delete from employee1 where empno = 1;
+
+delete from employee1 where empno = 1
 rollback tran t1
+
+--commiting the transaction
 commit  
+
 
 --After completing above all actions how to recall the deleted row without losing increment of second row.
 Select * from employee1 where empno = 1
@@ -65,6 +70,7 @@ else
     set @bonus = @sal * 0.05
 return @bonus
 End
+
 select * from EMP
 --calling the function
 Select empno,ename, dbo.Calculate_Bonus(10) as bonus from EMP

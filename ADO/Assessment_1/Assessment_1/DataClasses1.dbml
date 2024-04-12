@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Employee_Management" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ICS-LT-35RSBN3\SQLEXPRESS;Initial Catalog=Employee_Management;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="Assessment_1.Properties.Settings" SettingsPropertyName="Employee_ManagementConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Employee_Details" Member="Employee_Details">
+    <Type Name="Employee_Detail">
+      <Column Name="Emp_No" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Emp_Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Emp_Sal" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="Emp_Type" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.Add_Emp_Details" Method="Add_Emp_Details">
+    <Parameter Name="E_Name" Parameter="e_Name" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="E_Sal" Parameter="e_Sal" Type="System.Decimal" DbType="Decimal(10,2)" />
+    <Parameter Name="E_Type" Parameter="e_Type" Type="System.Char" DbType="Char(1)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
